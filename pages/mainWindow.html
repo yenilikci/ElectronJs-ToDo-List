@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List | ElectronJs</title>
+    <link rel="stylesheet" href="../assets/bootstrap.css">
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-white">ToDo List | ElectronJs</a>
+        <div class="col-md-8 d-flex">
+            <input id="todoValue" type="text" class="form-control mr-1 border-success border">
+            <button id="addBtn" class="btn btn-outline-success mr-1">Ekle</button>
+            <button id="closeBtn" class="btn btn-outline-danger">Çıkış</button>
+        </div>
+    </nav>
+    <div class="container main-container mt-3">
+        <div class="todo-container container">
+            </div>
+        <div class="alert-container row">
+            <div class="alert alert-danger col-md-12">
+                <b>Herhangi bir ToDo bulunmamaktadır!</b>
+            </div>
+
+        </div>
+    </div>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <span>Toplam Kayıt Sayısı: <b class="total-count-container"></b></span>
+    </nav>
+    <script src="../assets/mainWindows.js"></script>
+</body>
+</html>

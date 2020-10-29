@@ -1,0 +1,14 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "github.com/yenilikci",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^10.1.5"
+  }
+}
